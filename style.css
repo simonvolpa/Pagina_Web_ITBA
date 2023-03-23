@@ -1,0 +1,30 @@
+/*selector {propiedad: selector;valor}
+
+
+id en html y aca lo paso como #
+si la etiqueta html tiene un class le pongo en css
+
+si la etiquetac tiene id pongo #
+
+si la etiqueta tiene class pongo .
+
+padding son margenes particulares (arriba, abajo, derecha, izquirrda
+margin me toma todo de margen
+*/
+#p{color: aqua;}
+
+*{
+    border: solid red 1px;
+}
+
+body{background-color: brown;}
+
+#hola{color: blueviolet;}
+
+#wefood{background-color: blue;}
+#wefood{color: aquamarine;}
+#wefood{padding-left: 20px;}
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/diamond-shape-golden-pattern-vector-background_1017-13783.jpg?w=2000);
+}
