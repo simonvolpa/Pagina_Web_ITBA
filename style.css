@@ -11,20 +11,35 @@ si la etiqueta tiene class pongo .
 padding son margenes particulares (arriba, abajo, derecha, izquirrda
 margin me toma todo de margen
 */
-#p{color: aqua;}
 
-*{
-    border: solid red 1px;
-}
+#p{color: red;}
 
-body{background-color: brown;}
 
-#hola{color: blueviolet;}
 
-#wefood{background-color: blue;}
-#wefood{color: aquamarine;}
-#wefood{padding-left: 20px;}
 
 body{
-    background-image: url(https://img.freepik.com/free-vector/diamond-shape-golden-pattern-vector-background_1017-13783.jpg?w=2000);
+    background-color: rgb(225, 255, 220);
+    font-family: arial;
 }
+
+#header{
+    position: fixed;
+    
+}
+
+#wecreate{
+    font-family: arial; font-weight: bold; font-size: x-large;
+    color: rgb(0, 90, 0);
+}
+
+#ensalada{
+    display: inline;
+}
+
+#wefood{
+    color: rgb(0,90,0);
+    padding-left: 10vw;
+}
+
+
+
