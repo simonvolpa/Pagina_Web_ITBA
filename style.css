@@ -12,34 +12,39 @@ padding son margenes particulares (arriba, abajo, derecha, izquirrda
 margin me toma todo de margen
 */
 
-#p{color: red;}
 
 
+*{
 
+    background-color: white;
+    list-style: none;
+    font-style: normal;
+    
+
+}
 
 body{
-    background-color: rgb(225, 255, 220);
-    font-family: arial;
+    margin: 0;
 }
 
-#header{
-    position: fixed;
-    
-}
-
-#wecreate{
-    font-family: arial; font-weight: bold; font-size: x-large;
-    color: rgb(0, 90, 0);
-}
-
-#ensalada{
-    display: inline;
-}
-
-#wefood{
-    color: rgb(0,90,0);
-    padding-left: 10vw;
+.header{    
+        margin-left: 5;
+        margin-right: 5;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        
 }
 
 
-
+.imagen1{
+    margin-top: 5vw;
+    width: 100%;
+    height: auto;
+    border: solid red;
+    border-width: 0,01;
+}
