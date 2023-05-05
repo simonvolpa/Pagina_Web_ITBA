@@ -15,36 +15,58 @@ margin me toma todo de margen
 
 
 *{
+  margin: 0;
+  list-style: none;
+  border: solid red 1px;
+  
+  }
 
-    background-color: white;
-    list-style: none;
-    font-style: normal;
-    
-
-}
-
-body{
-    margin: 0;
-}
-
-.header{    
-        margin-left: 5;
-        margin-right: 5;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        
+body{  background-color: rgb(224, 239, 255);
 }
 
 
-.imagen1{
-    margin-top: 5vw;
-    width: 100%;
-    height: auto;
-    border: solid red;
-    border-width: 0,01;
+
+
+
+.row_carousel{
+  display: flex;
+  justify-content: center;
+}
+
+#carouselExampleFade{
+  width: 700px;
+  height: 500px;
+}
+.img1{
+  width: 700px;
+  height: 500px;
+}
+
+.quienes-somos{
+  display: flex;
+  justify-content: center;
+  font-size: 4vw;
+}
+
+.texto{
+  font-size: 1vw;
+  max-width: 15vw;
+
+}
+
+.columna_inicio{
+  background-color: aliceblue;
+  padding: 1%;
+  width: 10%;
+  margin: 1%;
+}
+
+.categorias_inicio{
+  display: flex;
+  
+}
+
+.foto_inicio{
+  max-width: 90vw; 
+  position: absolute;
 }
