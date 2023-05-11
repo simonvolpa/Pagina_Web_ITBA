@@ -18,14 +18,11 @@ margin me toma todo de margen
   margin: 0;
   list-style: none;
   border: solid red 1px;
-  
   }
 
-body{  background-color: rgb(224, 239, 255);
-}
-
-
-
+  body{
+    background-color: rgb(224, 239, 255);
+  }
 
 
 .row_carousel{
@@ -46,11 +43,13 @@ body{  background-color: rgb(224, 239, 255);
   display: flex;
   justify-content: center;
   font-size: 4vw;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .texto{
   font-size: 1vw;
   max-width: 15vw;
+  font-family: 'Noto Sans', sans-serif;
 
 }
 
@@ -69,4 +68,26 @@ body{  background-color: rgb(224, 239, 255);
 .foto_inicio{
   max-width: 90vw; 
   position: absolute;
+}
+
+.quienes-somos{
+  font-size: 4vw;
+  text-align: center;
+  
+}
+
+.titulo-1{
+  font-size: 1.5vw;
+  text-align: center;
+  padding-left: 30vw;
+  padding-right: 30vw;
+}
+
+.container{
+   display: flex;
+   justify-content: space-between;
+}
+
+.card{
+
 }
