@@ -25,15 +25,23 @@ margin me toma todo de margen
   }
 
 
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
 .row_carousel{
   display: flex;
   justify-content: center;
 }
 
-#carouselExampleFade{
-  width: 700px;
-  height: 500px;
+.imagenes-secciones{
+  max-width: 49vw;
+
+
 }
+
+
 .img1{
   width: 700px;
   height: 500px;
