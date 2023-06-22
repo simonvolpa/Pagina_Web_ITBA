@@ -1,3 +1,37 @@
+function descuento(precio){
+    if(precio > 30000){
+        precio=precio*0.75;
+    console.log("Te has llevado un descuento por realizar una compra de mas de 30000")
+    return precio}
+    }
+
+function carrito(precio){
+    if (precio=0){
+        console.log("Selecciona un prodcuto para realizar una compra")
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const price=5;
 let total=price*2;
 
@@ -91,3 +125,22 @@ switch(frutas){
     case "naranja":
     console.log("naranja");
 }
+
+//PONER JAVASCRIPT EN HTML
+
+
+document.getElementById("nombre de id objeto").innerHTML="hola"
+let subtitulo = document.getElementsByTagName(img).alt="Foto generica"
+subtitulo.style.color="red"
+
+
+//imaginar un button creado 
+//ADDEVENTLISTENER IMPORTANTE
+//click, mouseover, mouseout, onload, 
+
+function enojarse(){
+    alert("gracias")
+}
+
+document.getElementById("button").addEventListener("click",enojarse())
+
