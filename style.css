@@ -17,22 +17,41 @@ margin me toma todo de margen
 *{
   margin: 0;
   list-style: none;
-  border: solid red 1px;
+  
+  }
+
+  .card{
+    margin-bottom: 3vw;
+
+  }
+
+  .row {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los contenedores */
+    align-items: center; /* Centra verticalmente los contenedores */
+  }
+
+  .col-12 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
   }
 
   body{
-    background-color: rgb(224, 239, 255);
+    background-color: rgb(138, 129, 116);
   }
 
 
   .carousel-item img {
     max-width: 100%;
     height: auto;
+    border: solid rgb(0, 0, 0) 2px;
   }
 
 .row_carousel{
   display: flex;
   justify-content: center;
+ 
 }
 
 .imagenes-secciones{
@@ -96,3 +115,86 @@ margin me toma todo de margen
    justify-content: space-between;
 }
 
+.buzos_titulo{
+
+}
+
+#footer{
+  box-sizing: border-box;
+  width: 100%;
+  height: 45vh;
+  background-color: #181818;
+  box-shadow: 0px -5px 20px gray;
+  font-family: 'Work Sans', sans-serif; 
+}
+  .footer-container{
+      box-sizing: border-box;
+      display: flex;
+      width: 73%;
+      margin: auto;
+      height: 100%;
+  }   
+      .row-1{
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          background-color: #181818;
+          width: 25%;
+          font-size: 140%; 
+          margin-top: 3%;
+          margin-bottom: 3%;
+          overflow: hidden;
+      }
+          .logo-footer {
+              box-sizing: border-box;
+              height: 33.3%;
+              background: url(Imagenes/Logo\ libor\ nuevo.png);
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+          }
+          .info-footer {
+              box-sizing: border-box;
+              height: fit-content;
+              margin-top: 5%;
+              letter-spacing: 1px;
+              line-height: 1.5;
+          }
+                  a {
+                      text-decoration: none;
+                      color: #777777;
+                  }
+      .row-2{
+          box-sizing: border-box;
+          width: 75%;
+          display: flex;
+          overflow-y: hidden;
+          margin-top: 3%;
+          margin-bottom: 3%;
+      }
+          .footer-row-2-espacio{
+              box-sizing: border-box;
+              width: 33.3%;
+          }
+          .footer-row-2-info{
+              
+              box-sizing: border-box;
+              width: 33.3%;
+              overflow-y: auto;
+          }
+              .footer-row-2-info-titulo{
+                  
+                  box-sizing: border-box;
+                  font-size: 140%;
+                  letter-spacing: 1px;
+                  line-height: 1.5;
+                  color: lightgrey;
+              }
+              .footer-row-2-info-menu{
+                  
+                  box-sizing: border-box;
+                  font-size: 140%;
+                  letter-spacing: 1px;
+                  line-height: 1.5;
+                  color: #777777;
+              }
