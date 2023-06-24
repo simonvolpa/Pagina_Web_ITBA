@@ -165,9 +165,8 @@ subtitulo.style.color="red"
 //ADDEVENTLISTENER IMPORTANTE
 //click, mouseover, mouseout, onload, 
 
-function enojarse(){
-    alert("gracias")
+function carrito_proximamente(){
+    alert("Proximamente habra carrito")
 }
-
-document.getElementById("button").addEventListener("click",enojarse())
+document.getElementById("btn btn-primary").addEventListener("click",carrito_proximamente())
 
