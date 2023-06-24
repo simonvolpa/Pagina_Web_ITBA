@@ -18,8 +18,35 @@ function carrito(precio){
 
 
 
+// Define la fecha y hora objetivo para el evento
+var fechaObjetivo = new Date("2023-06-27T12:00:00Z");
 
+// Obtiene el elemento <div> del contador por su id
+var contadorElemento = document.getElementById("contador");
 
+// Función para calcular y mostrar el contador de tiempo
+function actualizarContador() {
+  // Obtiene la fecha y hora actual
+  var fechaActual = new Date();
+
+  // Calcula la diferencia en milisegundos entre la fecha objetivo y la fecha actual
+  var diferencia = fechaObjetivo - fechaActual;
+
+  // Calcula los días, horas, minutos y segundos restantes
+  var dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+  var horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+  var segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+
+  // Actualiza el contenido del elemento <div> del contador
+  contadorElemento.textContent = "En " + dias + " días, " + horas + " horas, " + minutos + " minutos y " + segundos + " segundos lanzamos un nuevo producto";
+
+  // Actualiza el contador cada segundo
+  setTimeout(actualizarContador, 1000);
+}
+
+// Inicia el contador
+actualizarContador();
 
 
 
