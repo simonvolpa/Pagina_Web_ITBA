@@ -4,7 +4,7 @@ const stockProductos = [
       nombre: "Gris Corto",
       cantidad: 1,
       desc: "Buzo Lana",
-      precio: 18.000,
+      precio: 18000,
       img: "./Imagenes_Basura/_Angel Wings_ Unisex Men Women Streetwear Graphic Hoodie.jpg",
     },
     {
@@ -12,7 +12,7 @@ const stockProductos = [
         nombre: "Space Negro",
         cantidad: 1,
         desc: "Buzo Lana",
-        precio: 22.000,
+        precio: 22000,
         img: "./Imagenes_Basura/Jinquedai  Hot Sale Fashion Creativity Design Skeleton Graphic Print Hoodie Men Women Fleece Cotton Hoodies Man Hip Hop Style Sweatshirt - Blue _ S.jpg",
       },
       {
@@ -20,7 +20,7 @@ const stockProductos = [
         nombre: "Buzo-Manga Larga",
         cantidad: 1,
         desc: "Buzo Lana",
-        precio: 18.000,
+        precio: 22000,
         img: "./Imagenes_Basura/TALISHKO™ - Flocked Letter Panel Sweatshirt - Brown _ XL.jpg",
       },
       {
@@ -28,7 +28,7 @@ const stockProductos = [
         nombre: "Naranja-Gris",
         cantidad: 1,
         desc: "Buzo Lana",
-        precio: 18.000,
+        precio: 20000,
         img: "./Imagenes_Basura/Mens Corduroy Contrast Patchwork Casual Drawstring Elastic Hem Hoodies With Kangaroo Pocket.jpg",
       },
       {
@@ -36,7 +36,7 @@ const stockProductos = [
         nombre: "Marron Estampa",
         cantidad: 1,
         desc: "Remera Lana",
-        precio: 18.000,
+        precio: 10000,
         img: "./REMERAS/descarga (1).jpg",
       },
       {
@@ -44,7 +44,7 @@ const stockProductos = [
         nombre: "Smile Gris",
         cantidad: 1,
         desc: "Remera Lana",
-        precio: 18.000,
+        precio: 9500,
         img: "./REMERAS/descarga (2).jpg",
       },
       {
@@ -52,7 +52,7 @@ const stockProductos = [
         nombre: "Space Blanca",
         cantidad: 1,
         desc: "Remera Lana",
-        precio: 18.000,
+        precio: 10000,
         img: "./REMERAS/descarga.jpg",
       },
       {
@@ -60,7 +60,7 @@ const stockProductos = [
         nombre: "Dragon Amarillo",
         cantidad: 1,
         desc: "Remera Lana",
-        precio: 18.000,
+        precio: 11000,
         img: "./REMERAS/ROMWE Guys Japanese Writing Dragon Graphic Tee.webp",
       },
       {
@@ -68,7 +68,7 @@ const stockProductos = [
         nombre: "Butterfly Gris",
         cantidad: 1,
         desc: "Remera Lana",
-        precio: 18.000,
+        precio: 14000,
         img: "./pantalones/717e82b27d2b0b8e560e14f85a470adf-product.jpg",
       },
       {
@@ -76,7 +76,7 @@ const stockProductos = [
         nombre: "Jogging Gris",
         cantidad: 1,
         desc: "Remera Lana",
-        precio: 18.000,
+        precio: 12500,
         img: "./pantalones/D_NQ_NP_729030-CBT54390521121_032023-W.jpg",
       },
       {
@@ -84,7 +84,7 @@ const stockProductos = [
         nombre: "Jean Parcheado",
         cantidad: 1,
         desc: "Remera Lana",
-        precio: 18.000,
+        precio: 20000,
         img: "./pantalones/H232262a9bf9f40adb192372ae6f12218v.jpg",
       },
       {
@@ -92,7 +92,7 @@ const stockProductos = [
         nombre: "Butterfly Negro",
         cantidad: 1,
         desc: "Remera Lana",
-        precio: 18.000,
+        precio: 14000,
         img: "./pantalones/H7226fbc8c358449684107391517bf3d0x.jpg_640x640Q90.jpg_.webp",
       },
 
@@ -157,7 +157,7 @@ const stockProductos = [
         <p class="card-text">Precio: ${precio}</p>
         <p class="card-text">Descripcion: ${desc}</p>
         <p class="card-text">Cantidad: ${cantidad}</p>
-        <button class="btn btn-primary" onclick="agregarProducto(${id})">Comprar Producto</button>
+        <button class="btn btn-primary" onclick="agregarProducto(${id})">Comprar</button>
       </div>
     </div>
       `;

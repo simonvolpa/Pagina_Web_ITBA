@@ -26,6 +26,7 @@ margin me toma todo de margen
 
   }
 
+
   .row {
     display: flex;
     justify-content: center; /* Centra horizontalmente los contenedores */
@@ -38,6 +39,8 @@ margin me toma todo de margen
     align-items: center; /* Centra verticalmente el contenido */
   }
 
+
+  
   body{
     background-color: rgb(138, 129, 116);
   }
@@ -107,7 +110,7 @@ margin me toma todo de margen
 }
 
 .titulo-1{
-  font-size: 1.5vw;
+  font-size: 2vw;
   text-align: center;
   padding-left: 30vw;
   padding-right: 30vw;
@@ -123,6 +126,7 @@ margin me toma todo de margen
 .buzos_titulo{
 
 }
+
 
 #footer{
   box-sizing: border-box;
@@ -211,7 +215,7 @@ margin me toma todo de margen
   background-color: #767061;
   padding: 10px;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 2vw;
   text-align: center;
 margin-bottom: 2vw;
 margin-left: 25vw;
@@ -222,6 +226,11 @@ align-content: center;
 display: flex;
 justify-content: center;
 margin-top: 3vw;
+font-size: 3vw;
+}
+
+.queres_ser{
+  font-size: 3vw;
 }
 
 .image-container {
@@ -255,4 +264,3 @@ margin-top: 3vw;
   border-top: 0.5vw solid black;
   margin: 20px 0;}
 
-  
