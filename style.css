@@ -210,6 +210,8 @@ margin me toma todo de margen
 
 
 
+
+
 #contador {
   border: 1px solid #390d0d;
   background-color: #767061;
@@ -264,3 +266,20 @@ font-size: 3vw;
   border-top: 0.5vw solid black;
   margin: 20px 0;}
 
+.barra{
+  background-color: black;
+  size: 2vw;
+}
+
+.buzos_titulo{
+  font-size: 3vw;
+  border: 1px solid #390d0d;
+  background-color: #767061;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+margin-bottom: 2vw;
+margin-left: 35vw;
+margin-right: 35vw;
+
+}
