@@ -19,7 +19,7 @@ function carrito(precio){
 
 
 // Define la fecha y hora objetivo para el evento
-var fechaObjetivo = new Date("2023-06-29T12:00:00Z");
+var fechaObjetivo = new Date("2023-07-04T12:00:00Z");
 
 // Obtiene el elemento <div> del contador por su id
 var contadorElemento = document.getElementById("contador");
